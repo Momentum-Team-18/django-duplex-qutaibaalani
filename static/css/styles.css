@@ -1,0 +1,49 @@
+h1.QQQ {
+    font-size: 40px;
+    padding: 25px 50px;
+    margin: auto;
+}
+
+form {
+    font-size: 40px;
+    padding: 10px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 120px;
+}
+
+P {
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+a.subjects {
+    font-size: 30px;
+    color: #fff414;
+    padding-right: 10px;
+}
+
+a.log_out {
+    font-size: 30px;
+    color: #fff414;
+}
+
+body {
+    padding: 30px;
+    margin: auto;
+    background-color: #ff7c74;
+}
+
+a {
+    color: #fff414;
+}
