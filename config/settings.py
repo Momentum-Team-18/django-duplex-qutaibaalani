@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Add the "registration" app to the list of installed apps
     "registration",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Add the "flashcards" app to the list of installed apps
     "flashcards",
 ]
 
