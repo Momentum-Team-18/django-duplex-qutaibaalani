@@ -1,0 +1,14 @@
+<!-- Extend the 'base.html' template -->
+{% extends 'base.html' %}
+<!-- Start a new content block -->
+{% block content %}
+    <h2>New Subject</h2>
+    <!-- Create a form with POST method and CSRF token -->
+    <form method="POST">{% csrf_token %}
+        <!-- Render the subject_form fields as paragraphs -->
+        {{ subject_form.as_p }}
+        <button type="submit" class="save btn btn-secondary">Save</button>
+    </form>
+
+    <!-- End the content block -->
+{% endblock %}

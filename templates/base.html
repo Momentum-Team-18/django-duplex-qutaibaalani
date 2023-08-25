@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Q's Flashcards 📌</title>
+</head>
+<body>
+    <img src="{% static 'Q.jpg' %}">
+    <h1 class="QQQ">Q's Flashcards 📌</h1>
+    <a class="subjects" href="{% url 'list_subject' %}">Subjects</a>
+    <a class="log_out" href="/accounts/logout">Log Out</a>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
